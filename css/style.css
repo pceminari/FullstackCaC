@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myproj_navbar{
+    background-color: rgba(158, 156, 154, 0.8);
+}
+
+.dropdown-menu {
+    background-color:  rgba(158, 156, 154, 0.8);
+}
+
+body{
+    background-color: rgb(253, 238, 219);
+}
+
+.intro_foto{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    opacity: 0;
+    animation: sum_keyframes_aparecerDesdeArriba 2s;
+    -webkit-animation: sum_keyframes_aparecerDesdeArriba 2s;
+    animation-fill-mode: forwards;
+}
+
+.intro_foto_titulo{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.intro_foto_texto{
+    font-family: 'Yaldevi', sans-serif; 
+    font-size: larger;
+    text-align: justify;
+}
+
+
+
+.tipos_foto{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 0%;
+    opacity: 0;
+    animation: sum_keyframes_aparecerDesdeArriba 4s;
+    -webkit-animation: sum_keyframes_aparecerDesdeArriba 4s;
+    animation-fill-mode: forwards;
+}
+
+.tipos_foto_titulo{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.tipos_foto_texto{
+    font-family: 'Yaldevi', sans-serif; 
+    font-size: larger;
+    text-align: justify;
+}
+
+.sumate{
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-top: 0%;
+    opacity: 0;
+    animation: sum_keyframes_aparecerDesdeArriba 6s;
+    -webkit-animation: sum_keyframes_aparecerDesdeArriba 6s;
+    animation-fill-mode: forwards;
+}
+.sumate_titulo{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.sumate_texto{
+    font-family: 'Yaldevi', sans-serif; 
+    font-size: larger;
+    text-align: justify;
+}
+
+.black{color:black}
+
+.nosotros_desc{
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 3%;
+    font-family: 'Yaldevi', sans-serif; 
+    font-size: 25px;
+    text-align: justify;
+    opacity: 0;
+    animation: sum_keyframes_aparecerDesdeArriba 4s;
+    -webkit-animation: sum_keyframes_aparecerDesdeArriba 4s;
+    animation-fill-mode: forwards;
+
+}
+
+.centrado{
+    margin: 0 auto;
+    padding: 0 .8em;
+}
+
+.foto_profe{
+    background-color: hsl(0, 0, 100%);
+    margin-bottom: 2em;
+    width: 33%;
+}
+
+.fotos_profe_todas{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+
+.desc_profe{
+    padding: 1.5em;
+}
+
+.desc_profe h2{
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-top: 0;
+    margin-bottom: .5em;
+    font-weight: normal;
+}
+
+.desc_profe p{
+    font-family: 'Yaldevi', sans-serif; 
+    font-size: 20px;
+    text-align: justify;
+}
+
+figure{
+    margin: 0;
+}
+
+img{
+    display: block;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+footer{
+   background-color: rgb(194, 186, 179);
+   text-align: right;
+   font-family: 'Yaldevi', sans-serif; 
+   font-size: 15px;
+   margin-top: 1%;
+   padding-top: 1%;
+}
+
+
+@keyframes sum_keyframes_aparecerDesdeArriba{
+    from{
+        opacity:0;
+        right: -150px;
+    }
+    to{
+        opacity: 1;
+        right: 0
+    }
+}
+
+@-webkit-keyframes sum_keyframes_aparecerDesdeArriba{
+    from{
+        opacity:0;
+        right: -150px;
+    }
+    to{
+        opacity: 1;
+        right: 0
+    }
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.contenedor {
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    /* La ubicacion por defecto de un objeto es arriba a la izquierda */
+    /* con el translate lo movemos al centro */
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(59, 45, 45, 0.6);
+    color:seashell;
+    margin: auto;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 19px 20px 8px -9px rgba(0,0,0,0.2);
+    overflow: hidden;
+    width: 400px;
+    max-width: 100%;
+}
+
+
+.cabecera {
+    font-family: 'Gloria Hallelujah', cursive;
+    background: rgba(158, 156, 154, 1);
+    color:azure;
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 20px 40px;
+}
+#formulario {
+    padding: 30px 20px;
+    font-family: 'Yaldevi', sans-serif; 
+    font-size: larger;
+    text-align: justify;
+}
+
+.form-control {    
+    margin-bottom: 7px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 7px;
+    font:weight 200px
+}
+
+.form-control input {
+    border: none;
+    background-color: #f0f0f0;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;    
+}
+.form-control, input:focus {
+    outline: none;
+}
+
+.form-control.ok input {
+    border: 0.1px solid;
+    border-color: #08ffc8;
+}
+.form-control.falla input {
+    border: 0.1px solid;
+    border-color: #fe5f55;
+}
+
+#formulario button {
+    background: #e75613;
+    border:1px solid #fd5f00;
+    border-radius: 2px;
+    color: #f6f6e9;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+}
+.form-control p {
+    visibility: hidden;
+    position: absolute;
+    font-size: small;
+    font-weight: 500;
+    text-align: right;
+}
+
+.form-control.falla p {
+    visibility: visible;
+    color:#e74c3c;
+}

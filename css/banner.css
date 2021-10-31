@@ -1,0 +1,136 @@
+.banner_inicial{
+    height: 80vh;
+    /* la imagen de fondo no se mueve */
+    background-attachment: fixed;
+    background-position: center;
+    /* para qu eno haga mozaico si a img es chica */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/foto.jpg");
+}
+
+.banner_nosotros{
+    height: 70vh;
+    /* la imagen de fondo no se mueve */
+    background-attachment: fixed;
+    background-position: bottom center;
+    /* para qu eno haga mozaico si a img es chica */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/nosotros.jpg");
+}
+
+.banner_salidas{
+    height: 70vh;
+    /* la imagen de fondo no se mueve */
+    background-attachment: fixed;
+    background-position: bottom center;
+    /* para qu eno haga mozaico si a img es chica */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/salida.jpg");
+}
+
+.banner_naturaleza{
+    height: 70vh;
+    /* la imagen de fondo no se mueve */
+    background-attachment: fixed;
+    background-position: bottom center;
+    /* para qu eno haga mozaico si a img es chica */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/naturaleza.jpg");
+}
+
+.banner_nocturna{
+    height: 70vh;
+    /* la imagen de fondo no se mueve */
+    background-attachment: fixed;
+    background-position: center;
+    /* para qu eno haga mozaico si a img es chica */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/nocturna.jpg");
+}
+
+.banner_estudio{
+    height: 70vh;
+    /* la imagen de fondo no se mueve */
+    background-attachment: fixed;
+    background-position: center;
+    /* para qu eno haga mozaico si a img es chica */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/estudio.jpg");
+}
+
+
+.sombra{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* La ubicacion por defecto de un objeto es arriba a la izquierda */
+    /* con el translate lo movemos al centro */
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(59, 45, 45, 0.6);
+    color:seashell;
+    margin: auto;
+}
+
+.sombra hr{
+    border-top: 1px solid #fff;
+}
+
+.sombra{
+    /* font-family: 'Yaldevi', sans-serif; */
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.sombra h1{
+    font-size: 2.5vw;
+    margin-bottom: 10px;
+}
+
+.sombra p{
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+}
+
+.sombra_nosotros{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /* La ubicacion por defecto de un objeto es arriba a la izquierda */
+    /* con el translate lo movemos al centro */
+    -ms-transform: translate(-50%, -15%);
+    -webkit-transform: translate(-50%, -15%);
+    transform: translate(-50%, -15%);
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    background-color: rgba(59, 45, 45, 0.6);
+    color:seashell;
+    margin: auto;
+}
+
+.sombra_nosotros{
+    /* font-family: 'Yaldevi', sans-serif; */
+    /* font-family: 'Indie Flower', cursive; */
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+.sombra_nosotros h1{
+    font-size: 2.5vw;
+    margin-bottom: 10px;
+}
+
+.sombra_nosotros p{
+    font-size: 1.5vw;
+    margin-bottom: 10px;
+}
